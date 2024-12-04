@@ -31,5 +31,4 @@ ______
 
 ________
 
-### Creado en el bootcamp de TecnolochicasPro 
 
