@@ -21,15 +21,15 @@ ______
 
   
 ### Vista Previa
-![Proyecto](/assets/portafolio1Captura.PNG)
-![Proyecto](/assets/Portafolio2Captura.PNG)
-![Proyecto](assets/portafio3Captura.PNG)
+![Proyecto](/assets/Presentacion1.jpg)
+![Proyecto](/assets/Presentacion2.jpg)
+![Proyecto](assets/Presentacion3.jpg)
 
-### *Espero pronto saber de ti*
+### *Contactame*
 *Correo*
 [gardunoyazmin26@gmail.com](mailto:gardunoyazmin26@gmail.com)
 
 ________
 
-### Creado en el bootcamp de TecnolochicasPro 💜
-[Tecnolochicas](https://tecnolochicas.mx/)
+### Creado en el bootcamp de TecnolochicasPro 
+
