@@ -1,0 +1,42 @@
+header {
+    background-color: #493628;
+}
+
+header span {
+    color: white;
+}
+
+footer{
+    background-color: #E4E0E1;
+}
+
+.testimonios{
+    background-color: #D6C0B3;
+}
+
+.card{
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.card h5{
+    margin-top: 20px;
+    color: #493628;
+}
+
+.boton-cv{
+    background-color: #493628;
+}
+
+a{
+    text-decoration: none;
+    color:#D6C0B3 ;
+}
+
+.proyecto-link{
+    background-color: #493628;
+    border-color:#D6C0B3;
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- CDN BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='styless.css'>
+    <script src='main.js'></script>
+    <!-- Iconos de bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="assets/flower3.svg" type="image/x-icon">
+</head>
+
+
+<body>
+
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <i class="bi bi-flower3 p-3 fs-1"></i>
+            <span class="fs-4">Jazmin Garduño Martinez</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" style="background-color: #AB886D;">Perfil</a></li>
+            <li class="nav-item"><a href="#Habilidades" class="nav-link" style="color: white;">Habilidades</a></li>
+            <li class="nav-item"><a href="#Proyectos" class="nav-link" style="color: white;">Proyectos</a></li>
+            <li class="nav-item"><a href="#Testimonios" class="nav-link" style="color: white;">Testimonios</a></li>
+            <li class="nav-item"><a href="#Contacto" class="nav-link" style="color: white;">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="Hero">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4 rounded-circle" src="assets/jazmin.jpg" alt="" width="150">
+                <h1 class="display-5 fw-bold text-body-emphasis">Jazmin Garduño Martinez</h1>
+                <h2 id="app" style="color: #AB886D;"></h2>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Soy Jazmin Garduño Martinez, una desarrolladora junior apasionada por la
+                        tecnología y el desarrollo de software. Tengo experiencia en Java, Python, SQL, Power Bi y he
+                        trabajado con Django y Bootstrap en desarrollo Web. Me encanta colaborar en equipo y contribuir
+                        a proyectos innovadores. Estoy siempre dispuesto a aprender y mejorar mis habilidades para
+                        ofrecer soluciones eficientes y creativas</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">
+                            <a target="_blank" href="https://drive.google.com/file/d/1ugqqwH3K7DlH4C0rKdH4rRc05hQDd_sJ/view?usp=sharing">Link al CV</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Habilidades-->
+        <div class="container px-4 py-5" id="Habilidades">
+            <h2 class="pb-2 border-bottom" style="color: #493628;">Habilidades</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-bar-chart-fill"></i>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">Analista de datos</h3>
+                        <p>Soy analista de datos certificada por Google, hago udo de herramientas como Python, Excel
+                            avanzado y Power BI. Creeo informes con excelentes soluciones y gran diseño visual</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-palette-fill"></i>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">Dev fronted</h3>
+                        <p>He desarrollado gran variedad de proyectos pequeños utilizando HTML,CSS,JS y PHP. Con un
+                            excelente manejo de bases de datos y el uso de frameworks como Django y Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-file-earmark-code-fill"></i>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">Dev Java</h3>
+                        <p>He trabajado en colaboracion con equipos y de manera independiente con software desarrollado
+                            en java ocupando el papel de Full Stack en la mayoria de proyectos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Proyectos-->
+        <div class="album py-5 bg-body-tertiary" id="Proyectos">
+            <div class="container">
+                <h2 class="pb-2 border-bottom" style="color: #493628;">Proyectos</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="assets/pinterest.png">
+                            <div class="card-body">
+                                <p class="card-text">Clon de pinterest</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group proyecto-link">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                                            <a target="_blank" href="https://pinterest-clon-beige.vercel.app/">Vercel</a>
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                                            <a target="_blank" href="https://github.com/CKJazDev/pinterest-clon">GitHub</a>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="assets/pinterest.png">
+                            <div class="card-body">
+                                <p class="card-text">Proyecto 2</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group proyecto-link">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            href="https://pinterest-clon-beige.vercel.app/">Vercel</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            href="https://github.com/CKJazDev/DjangoAPI">GitHub</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="assets/pinterest.png">
+                            <div class="card-body">
+                                <p class="card-text">Proyecto 3</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group proyecto-link">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            href="https://pinterest-clon-beige.vercel.app/">Vercel</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            href="https://github.com/CKJazDev/DashboardWeb">Github</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Testimonios-->
+        <div class="testimonios container mt-4" id="Testimonios">
+            <h2 class="pb-2 border-bottom" style="padding: 20px 20px 20px 20px; color: #493628;">Testimonios</h2>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <!--card-->
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/testimonio2.jpg" class="card-img-top rounded-circle" alt="...">
+                                <h5 class="card-title text-center ">Dayana Pacheco</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Tuve el privilegio de haber compartido con
+                                        Jazmin Garduño, en el bootcamp de Tecnolochicas Pro. Y me complace decir que [Tu
+                                        nombre] es una persona excepcional con muchas ganas de aprender, superarse a si
+                                        misma y desarrollar sus habilidades de programadora a otro nivel.
+                                        Además es una persona que ha demostrado ser muy cumplida, comprometida y
+                                        confiable en sus proyectos.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--fin card-->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <!--card-->
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/testimonio3.jpg" class="card-img-top rounded-circle" alt="...">
+                                <h5 class="card-title text-center">Isis Izaguirre Toscano</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Compartí espacio con Jazmin Garduño durante el Bootcamp de
+                                        Tecnolochicas PRO y demostró habilidades, compromiso y creatividad. Siempre
+                                        abierta a aprender cosas nuevas y aplicarlas en su práctica profesional.</p>
+                                </div>
+                            </div>
+                            <!--fin card-->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <!--card-->
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/testimonio1.jpg" class="card-img-top rounded-circle" alt="...">
+                                <h5 class="card-title text-center">Araceli Gonzalez Luna.</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Tuve la gran oportunidad de compartir
+                                        con Jazmin Garduño en el bootcamp de Technolochicas Pro. Sin duda alguna,
+                                        demostró ser una excelente desarrolladora front-end, con una notable facilidad
+                                        de aprendizaje y destacando por sus magníficos diseños. Fue un placer conocerle,
+                                        y espero seguir de cerca sus futuras creaciones. El futuro que le espera es
+                                        asombroso.</p>
+                                </div>
+                            </div>
+                            <!--fin card-->
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!--Contacto-->
+        <div class="px-4 py-5 my-5 text-center" id="Contacto">
+            <i class="bi bi-envelope-paper-heart-fill fs-1"></i>
+            <h1 class="display-5 fw-bold text-body-emphasis">Contactame</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">¡Contactame para iniciar un nuevo proyecto de desarrollo web!</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="mailto:gardunoyazmin26@gmail.com">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3 proyecto-link">Invitame</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <i class="bi bi-instagram"></i><a href="https://www.instagram.com/jazmin_arima_uwu/profilecard/?igsh=MWJ1bHNrMmZrM29taw%3D%3D" class="nav-link px-2 text-body-secondary"></a></li>
+            <i class="bi bi-github"></i><a href="https://github.com/CKJazDev" class="nav-link px-2 text-body-secondary"></a></li>
+            <i class="bi bi-facebook"></i><a href="https://www.facebook.com/Gaelnofianse.JazminArima?mibextid=ZbWKwL" class="nav-link px-2 text-body-secondary"></a></li>
+            <i class="bi bi-threads"></i><a href="https://www.threads.net/@jazmin_arima_uwu" class="nav-link px-2 text-body-secondary"></a></li>
+            <i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/jazm%C3%ADn-gardu%C3%B1o-martinez-0b7871337/" class="nav-link px-2 text-body-secondary"></a></li>
+        </ul>
+        <p class="text-center text-body-secondary">Creado por Jazmin garduño Martinez en el bootcamp de TecnolochicasPRO 2024</p>
+    </footer>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--CDN typewriterJS-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- main js-->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
